@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<body>
+
+    <section class="principal">
+        <section class="logo">
+            <h1>Receita médica</h1>
+        </section>
+
+        <section class="informacoes">
+            <h3>Informações do paciente</h3>
+            <label for="nome" class="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+            <label for="idade" class="idade">Idade:</label>
+            <input type="text" name="idade" id="idade">
+            <label for="sexo" class="sexo">Sexo:</label>
+            <input type="text" id="sexo" name="sexo">
+
+            <h3>Descrição da receita</h3>
+            <label for="descricaoMedicamento" class="descricaoMedicamento">Descrição do medicamento:</label>
+            <input type="text" id="descricaoMedicamento" name="descricaoMedicamento">
+            <label for="orientacoes" class="orientacoes">Orientações:</label>
+            <input type="text" id="orientacoes" name="orientacoes">
+        </section>
+
+        <section class="botoes">
+            <button>Salvar</button>
+            <button (click)="redirectPerfilMedico()">Cancelar</button>
+        </section>
+</section>
+
+</body>
+</html>
